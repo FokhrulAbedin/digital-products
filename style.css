@@ -12,6 +12,7 @@
     align-items: center;
     justify-content: space-around;
     cursor: pointer;
+    
 }
 .logo-photo{
     width: 120px;
@@ -30,4 +31,85 @@
 .item:hover{
     color: blue;
     background-color: brown;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    /* border: 2px solid gray; */
+    color: white;
+    background-image: url("./Images/background.png"), linear-gradient(45deg, rgb(8, 8,8), rgb(53, 53, 53));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.photo-img{
+    width: 300px;
+}
+
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 18px;
+    margin-top: 15;
+    margin-bottom: 15px;
+}
+.button{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+
+.title-about{
+    text-align: center;
+        padding-top: 10px;
+}
+
+.box{
+    width: 250px;
+    height: 350px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px}
+
+.icon{
+    width: 70px;
+}
+
+.box-button{
+    background-color: gray;
+    margin-top: 10px;
+}
+.box-title{
+    padding: 10px;
+}
+
+.box-description{
+    padding: 10px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(46, 44, 44);
+    margin-bottom: 50px;
 }
